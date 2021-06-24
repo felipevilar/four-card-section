@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+$light-red: hsl(0, 78%, 62%);
+$light-cyan: hsl(180, 62%, 55%);
+$light-orange: hsl(34, 97%, 64%);
+$light-blue: hsl(212, 86%, 64%);
+
+$dark-gray: hsl(234, 12%, 34%);
+$light-gray: hsl(229, 6%, 66%);
+$white: hsl(0, 0%, 98%);
+
+$font-size: 15px;
+$family: "Poppins", sans-serif;
+$font-light: 200;
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: $family;
+  font-size: $font-size;
+  background-color: $white;
+  color: $dark-gray;
+  padding-bottom: 3rem;
+}
+
+h1 {
+  color: $dark-gray;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+p {
+  color: $light-gray;
+}

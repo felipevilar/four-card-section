@@ -1,0 +1,46 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  @extend .flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin: 3rem 0;
+
+  h1:first-child {
+    font-weight: $font-light;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+}
+
+.main {
+  @extend .flex;
+  justify-content: center;
+}
+
+.middle-column {
+  @extend .flex;
+  width: 100%;
+}
+
+.card-supervisor {
+  @include cardFactory(url(.././images/icon-supervisor.svg), $light-cyan);
+}
+.card-team-builder {
+  @include cardFactory(url(.././images/icon-team-builder.svg), $light-red);
+}
+.card-karma {
+  @include cardFactory(url(.././images/icon-karma.svg), $light-orange);
+}
+.card-calculator {
+  @include cardFactory(url(.././images/icon-calculator.svg), $light-blue);
+}

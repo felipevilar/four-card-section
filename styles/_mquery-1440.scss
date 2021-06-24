@@ -1,0 +1,35 @@
+@media (min-width: 1248px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .header {
+    p {
+      padding: 0px 25%;
+    }
+  }
+
+  .main {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-supervisor, .card-calculator {
+    margin: 0 2rem;
+  }
+
+  .card-team-builder {
+    margin: 0rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card-karma {
+    margin: 0rem;
+  }
+
+}
